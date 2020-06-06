@@ -6,6 +6,7 @@ Requires Python 3.7.
 ## Usage
 
 - `git clone https://github.com/magnickolas/formal_grammars && cd formal_grammars`
+- `python3 -m venv venv && . venv/bin/activate && pip install -r requirements.txt`
 - Put the CFG's rules inside [grammar file][grammar_file], see an example there
 - Use one of the following algorithms:
     - **LL(1)-parser builder**: print LL(1)-parser table
