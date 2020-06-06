@@ -1,0 +1,7 @@
+rules:
+    - S -> BC
+    - C -> aBaS | ε
+    - B -> bB
+    - B -> ε
+start: S
+empty: ε
