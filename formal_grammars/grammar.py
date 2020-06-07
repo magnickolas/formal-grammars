@@ -67,7 +67,7 @@ for rule in Rules:
 #   upper case symbols -> non terminals
 #   other symbols -> terminals
 Terminals, NonTerminals = set(), set()
-for rule in Rules[1:]:
+for rule in Rules:
     s = rule.left + rule.right
     Terminals.update(filter(lambda c: not c.isupper() and c != EMPTY, s))
     NonTerminals.update(filter(lambda c: c.isupper(), s))
