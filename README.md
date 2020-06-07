@@ -1,5 +1,7 @@
 # Formal grammars
 
+![][cyk_example]
+
 Some tools to run algorithms on context-free grammars (CFG).
 Requires Python 3.7.
 
@@ -29,4 +31,4 @@ Requires Python 3.7.
 For educational purposes only.
 
 [grammar_file]: grammar.yaml
-[cnf]: https://en.wikipedia.org/wiki/Chomsky_normal_form
+[cyk_example]: imgs/cyk_example.jpg

@@ -19,7 +19,6 @@ def main():
         A = rule.left
         A_idx = NonTerminals.index(A)
         first = get_first(rule.right)
-        print(rule.right, first)
         for a in first.difference({EMPTY}):
             a_idx = Terminals.index(a)
             if M[A_idx][a_idx]:
